@@ -261,8 +261,6 @@ jobs:
 
 After pushing the workflow to the `development` branch, the pipeline runs automatically on the EC2 runner and completes all steps successfully.
 
-> 📸 **Screenshot:** _(Add your screenshot of the green successful pipeline run from the GitHub Actions tab here)_
-
 ---
 
 ## Debugging a Failure
@@ -289,3 +287,5 @@ In the GitHub Actions tab → click the failed run → click the job name → ex
 ```
 
 This tells us exactly which test failed and why. The fix is to correct the assertion and push again.
+
+![Pipeline run](@file:screenshot.png)
