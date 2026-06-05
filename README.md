@@ -288,4 +288,4 @@ In the GitHub Actions tab → click the failed run → click the job name → ex
 
 This tells us exactly which test failed and why. The fix is to correct the assertion and push again.
 
-![Pipeline run](@file:screenshot.png)
+![Pipeline run](public/screenshot.png)
